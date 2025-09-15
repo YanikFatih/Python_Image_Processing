@@ -1,6 +1,5 @@
 import cv2
 import mediapipe as mp
-
 mp_3d = mp.solutions.objectron
 mp_3d_draw = mp.solutions.drawing_utils
 img = cv2.imread("sneaker.png")
